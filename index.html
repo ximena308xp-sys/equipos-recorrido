@@ -1,13 +1,18 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>¿Cómo crear equipos de trabajo en Sweet &amp; Coffee?</title>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Equipos S Recorrido</title>
+<script src="./react.js"></script>
+<script src="./react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;family=Italianno&amp;family=Montserrat:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
-html,body{margin:0;height:100%;background:#174A2B;overflow:hidden}
-#wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
-#stage{width:960px;height:540px;flex:none;transform-origin:center center}
-
 body{margin:0}
 button{font-family:inherit;cursor:pointer}
 @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -36,14 +41,13 @@ button{font-family:inherit;cursor:pointer}
 .gl{transition:opacity .4s ease,left .4s ease,top .4s ease,width .4s ease}.glb{transition:width .4s ease,height .4s ease}.r[data-i="5"] .gl{left:100px!important;top:86px!important;width:760px!important;height:124px!important}.r[data-i="5"] .glb{width:760px!important;height:112px!important}.r[data-i="5"] .gi{gap:10px!important;padding:0 48px!important}.r[data-i="6"] .gl{opacity:0}
 .bb{position:absolute;left:0;top:0;width:100%;height:100%;transition:opacity .5s ease,transform .6s cubic-bezier(.2,.8,.2,1)}
 @media (prefers-reduced-motion: reduce){.up,.bob,.arw[data-pulse="yes"] span,.au[data-play="yes"] i{animation:none}.ly,.st,.pp,.bb,.br{transition:none}}
+</style>
+</helmet>
+<div class="r" data-i="{{ i }}" style="position:relative; width:960px; height:540px; overflow:hidden; background:#F6EBCB; font-family:'Montserrat',system-ui,sans-serif; color:#174A2B">
 
-</style></head><body>
-<div id="wrap"><div id="stage">
-<div class="r" id="r" data-i="0" style="position:relative; width:960px; height:540px; overflow:hidden; background:#174A2B; font-family:'Montserrat',system-ui,sans-serif; color:#174A2B">
-
-<svg class="ly" width="1240" height="698" viewBox="0 0 1240 698" style="left:0; transform:translateX(0px)" id="l0" aria-hidden="true"><image href="./s-fondo6.jpg" x="0" y="12" width="1240" height="698" preserveAspectRatio="none"></image></svg>
-<svg class="ly" width="3840" height="540" viewBox="0 0 3840 540" style="left:0; transform:translateX(0px)" id="l1" aria-hidden="true"><g transform="translate(0,16)"><g class="st s4"><g class="pp" style="transition-delay:0.5s; transform-origin:50% 100%"><rect x="2640" y="291" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(101 2720 300)"></rect><rect x="2765" y="253" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(17 2720 300)"></rect><rect x="2530" y="316" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(74 2720 300)"></rect><rect x="2911" y="229" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(133 2720 300)"></rect><rect x="2794" y="306" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(44 2720 300)"></rect><rect x="2574" y="281" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(6 2720 300)"></rect><rect x="2848" y="280" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(49 2720 300)"></rect><rect x="2604" y="293" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(160 2720 300)"></rect><rect x="2894" y="309" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(155 2720 300)"></rect><rect x="2692" y="313" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(63 2720 300)"></rect><rect x="2611" y="277" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(71 2720 300)"></rect><rect x="2565" y="354" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(1 2720 300)"></rect><rect x="2669" y="360" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(130 2720 300)"></rect><rect x="2619" y="319" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(153 2720 300)"></rect><rect x="2667" y="324" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(41 2720 300)"></rect><rect x="2639" y="292" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(11 2720 300)"></rect><rect x="2561" y="225" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(160 2720 300)"></rect><rect x="2663" y="346" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(165 2720 300)"></rect><rect x="2761" y="301" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(172 2720 300)"></rect><rect x="2620" y="231" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(51 2720 300)"></rect><rect x="2845" y="375" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(70 2720 300)"></rect><rect x="2614" y="305" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(150 2720 300)"></rect><rect x="2684" y="376" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(50 2720 300)"></rect><rect x="2685" y="239" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(58 2720 300)"></rect><rect x="2662" y="363" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(60 2720 300)"></rect><rect x="2582" y="298" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(74 2720 300)"></rect></g></g><defs><clipPath id="cpq"><rect x="0" y="0" width="3840" height="418"></rect></clipPath></defs><g clip-path="url(#cpq)"><g class="st s5"><image class="bob" href="./s-confianza2.png" x="3155.0" y="226" width="250" height="191.6"></image></g><g class="st s4"><image class="bob" href="./s-reconoce.png" x="2581.2" y="232" width="277.5" height="330.3"></image></g><g class="st s3"><image class="bob" href="./s-dialogo.png" x="2050.2" y="232" width="219.6" height="328"></image></g><g class="st s0"><image class="bob" href="./s-inicio.png" x="345.0" y="216" width="270" height="345.8"></image></g><g class="st s1"><image class="bob" href="./s-equipo.png" x="839.9" y="236" width="400.2" height="342.4"></image></g></g><g class="st s2"><image class="bob" href="./s-manos.png" x="1405.0" y="190" width="390" height="206.5"></image></g><image href="./s-barra2-tile.png" x="0" y="394" width="1920" height="130"></image><image href="./s-barra2-tile.png" x="1920" y="394" width="1920" height="130"></image><g class="st s0"><rect x="380.0" y="446" width="200" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="480" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PUNTO DE PARTIDA</text></g><g class="st s1"><rect x="980.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="1040" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 1</text></g><g class="st s2"><rect x="1540.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="1600" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 2</text></g><g class="st s3"><rect x="2100.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="2160" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 3</text></g><g class="st s4"><rect x="2660.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="2720" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 4</text></g><g class="st s5"><rect x="3220.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="3280" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 5</text></g></g></svg>
-<svg class="ly" width="4800" height="540" viewBox="0 0 4800 540" id="l2" style="left:0; transform:translateX(0px); pointer-events:none" aria-hidden="true"><image href="./s-monstera.png" x="55" y="374" width="120" height="174"></image><image href="./s-cafeto.png" x="783" y="414" width="105" height="134"></image><image href="./s-monstera.png" x="1511" y="374" width="120" height="174"></image><image href="./s-cafeto.png" x="2239" y="414" width="105" height="134"></image><image href="./s-monstera.png" x="2967" y="374" width="120" height="174"></image><image href="./s-cafeto.png" x="3695" y="414" width="105" height="134"></image><image href="./s-monstera.png" x="4423" y="374" width="120" height="174"></image></svg>
+<svg class="ly" width="1240" height="698" viewBox="0 0 1240 698" style="left:0; transform:translateX({{ x0 }}px)" aria-hidden="true"><image href="./s-fondo6.jpg" x="0" y="12" width="1240" height="698" preserveAspectRatio="none"></image></svg>
+<svg class="ly" width="3840" height="540" viewBox="0 0 3840 540" style="left:0; transform:translateX({{ x1 }}px)" aria-hidden="true"><g transform="translate(0,16)"><g class="st s4"><g class="pp" style="transition-delay:0.5s; transform-origin:50% 100%"><rect x="2640" y="291" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(101 2720 300)"></rect><rect x="2765" y="253" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(17 2720 300)"></rect><rect x="2530" y="316" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(74 2720 300)"></rect><rect x="2911" y="229" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(133 2720 300)"></rect><rect x="2794" y="306" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(44 2720 300)"></rect><rect x="2574" y="281" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(6 2720 300)"></rect><rect x="2848" y="280" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(49 2720 300)"></rect><rect x="2604" y="293" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(160 2720 300)"></rect><rect x="2894" y="309" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(155 2720 300)"></rect><rect x="2692" y="313" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(63 2720 300)"></rect><rect x="2611" y="277" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(71 2720 300)"></rect><rect x="2565" y="354" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(1 2720 300)"></rect><rect x="2669" y="360" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(130 2720 300)"></rect><rect x="2619" y="319" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(153 2720 300)"></rect><rect x="2667" y="324" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(41 2720 300)"></rect><rect x="2639" y="292" width="8" height="5" rx="1.5" fill="#2F7347" transform="rotate(11 2720 300)"></rect><rect x="2561" y="225" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(160 2720 300)"></rect><rect x="2663" y="346" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(165 2720 300)"></rect><rect x="2761" y="301" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(172 2720 300)"></rect><rect x="2620" y="231" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(51 2720 300)"></rect><rect x="2845" y="375" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(70 2720 300)"></rect><rect x="2614" y="305" width="8" height="5" rx="1.5" fill="#fff" transform="rotate(150 2720 300)"></rect><rect x="2684" y="376" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(50 2720 300)"></rect><rect x="2685" y="239" width="8" height="5" rx="1.5" fill="#F0B53F" transform="rotate(58 2720 300)"></rect><rect x="2662" y="363" width="8" height="5" rx="1.5" fill="#FFB93B" transform="rotate(60 2720 300)"></rect><rect x="2582" y="298" width="8" height="5" rx="1.5" fill="#E0584A" transform="rotate(74 2720 300)"></rect></g></g><defs><clipPath id="cpq"><rect x="0" y="0" width="3840" height="418"></rect></clipPath></defs><g clip-path="url(#cpq)"><g class="st s5"><image class="bob" href="./s-confianza2.png" x="3155.0" y="226" width="250" height="191.6"></image></g><g class="st s4"><image class="bob" href="./s-reconoce.png" x="2581.2" y="232" width="277.5" height="330.3"></image></g><g class="st s3"><image class="bob" href="./s-dialogo.png" x="2050.2" y="232" width="219.6" height="328"></image></g><g class="st s0"><image class="bob" href="./s-inicio2.png" x="330.0" y="192" width="300" height="400"></image></g><g class="st s1"><image class="bob" href="./s-equipo.png" x="839.9" y="236" width="400.2" height="342.4"></image></g></g><g class="st s2"><image class="bob" href="./s-manos.png" x="1405.0" y="190" width="390" height="206.5"></image></g><image href="./s-barra2-tile.png" x="0" y="394" width="1920" height="130"></image><image href="./s-barra2-tile.png" x="1920" y="394" width="1920" height="130"></image><g class="st s1"><rect x="980.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="1040" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 1</text></g><g class="st s2"><rect x="1540.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="1600" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 2</text></g><g class="st s3"><rect x="2100.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="2160" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 3</text></g><g class="st s4"><rect x="2660.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="2720" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 4</text></g><g class="st s5"><rect x="3220.0" y="446" width="120" height="22" rx="11" fill="#FFF8E4" stroke="#F0B53F" stroke-width="2"></rect><text x="3280" y="461" text-anchor="middle" font-family="Montserrat,sans-serif" font-weight="800" font-size="12" letter-spacing="2.5" fill="#174A2B">PASO 5</text></g></g></svg>
+<svg class="ly" width="4800" height="540" viewBox="0 0 4800 540" style="left:0; transform:translateX({{ x2 }}px); pointer-events:none" aria-hidden="true"><image href="./s-monstera.png" x="55" y="374" width="120" height="174"></image><image href="./s-cafeto.png" x="783" y="414" width="105" height="134"></image><image href="./s-monstera.png" x="1511" y="374" width="120" height="174"></image><image href="./s-cafeto.png" x="2239" y="414" width="105" height="134"></image><image href="./s-monstera.png" x="2967" y="374" width="120" height="174"></image><image href="./s-cafeto.png" x="3695" y="414" width="105" height="134"></image><image href="./s-monstera.png" x="4423" y="374" width="120" height="174"></image></svg>
 
 <!-- barra de marca -->
 
@@ -53,7 +57,11 @@ button{font-family:inherit;cursor:pointer}
 <!-- globo de diálogo -->
 <div class="gl" style="position:absolute; left:170px; top:98px; width:620px; height:104px; z-index:25">
 <div class="glb" style="position:absolute; left:0; top:0; width:620px; height:92px; border-radius:20px; background: rgba(23,74,43,.75); border: 3px solid #F0B53F; box-shadow: 0 14px 24px rgba(23,74,43,.28); overflow: hidden">
-<div id="bubs"></div>
+<sc-for list="{{ bubs }}" as="b" hint-placeholder-count="6">
+<div class="bb" style="opacity: {{ b.op }}; transform: translateY({{ b.ty }}px)">
+<div class="gi" style="position:absolute; left:0; top:0; right:0; bottom:0; padding:0 36px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:4px"><div style="font-weight:800; font-size:{{ b.ks }}px; line-height:1.15; text-wrap:balance; color:#FFE08A">{{ b.kicker }}</div><div style="display:{{ b.pd }}; font-family:Montserrat,sans-serif; font-weight:500; font-size:15px; line-height:1.25; text-wrap:balance; color:#fff">{{ b.phrase }}</div></div>
+</div>
+</sc-for>
 
 
 </div>
@@ -61,53 +69,72 @@ button{font-family:inherit;cursor:pointer}
 </div>
 
 <!-- cierre -->
-<div style="position:absolute; left:0; top:0; width:960px; height:540px; background:#f2d091; display:flex; align-items:center; justify-content:center; z-index:25; opacity:0; transition:opacity .7s ease;" id="fin" data-x=" pointer-events:none"><div style="width:660px; box-sizing:border-box; padding:34px 44px; border-radius:22px; background:#174A2B; border:2px solid #F0B53F; box-shadow:0 14px 30px rgba(0,0,0,.18); text-align:center; transform:translateY(14px); transition:transform .7s ease" id="finc"><div style="font-weight:800; font-size:26px; line-height:1.4; color:#fff; text-wrap:balance">Los mejores equipos no se forman por casualidad. Se construyen todos los días a través del liderazgo, la comunicación y el apoyo mutuo.</div></div></div>
+<div style="position:absolute; left:0; top:0; width:960px; height:540px; background:#f2d091; display:flex; align-items:center; justify-content:center; z-index:25; opacity:{{ fin }}; transition:opacity .7s ease; pointer-events:none"><div style="width:720px; box-sizing:border-box; padding:34px 48px; border-radius:22px; background:#174A2B; border:2px solid #F0B53F; box-shadow:0 14px 30px rgba(0,0,0,.18); text-align:center; transform:translateY({{ finY }}px); transition:transform .7s ease"><div style="font-weight:700; font-size:22px; line-height:1.45; color:#fff; text-wrap:balance">Crear un equipo va más allá de reunir personas para cumplir tareas. Un equipo fuerte se construye con confianza, comunicación y objetivos compartidos.</div><div style="margin-top:16px; font-weight:700; font-size:22px; line-height:1.45; color:#fff; text-wrap:balance">En Sweet &amp; Coffee®, el líder tiene un papel fundamental para desarrollar equipos comprometidos y generar un ambiente positivo de trabajo.</div></div></div>
 
-<button class="arw" aria-label="Estación anterior" id="bp" data-off="yes" style="left:20px"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:block"><path d="M15 5 L8 12 L15 19"></path></svg></span></button>
-<button class="arw" aria-label="Estación siguiente" id="bn" data-off="no" data-pulse="yes" style="right:20px"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:block"><path d="M9 5 L16 12 L9 19"></path></svg></span></button>
+<button class="arw" aria-label="Estación anterior" onClick="{{ prev }}" data-off="{{ atStart }}" style="left:20px"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:block"><path d="M15 5 L8 12 L15 19"></path></svg></span></button>
+<button class="arw" aria-label="Estación siguiente" onClick="{{ next }}" data-off="{{ atEnd }}" data-pulse="{{ pulse }}" style="right:20px"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:block"><path d="M9 5 L16 12 L9 19"></path></svg></span></button>
 
 <div style="position:absolute; left:0; top:518px; width:960px; display:flex; justify-content:center; align-items:center; gap:8px; z-index:30">
-<div id="dotsw" style="display:contents"></div>
+<sc-for list="{{ dots }}" as="d" hint-placeholder-count="7">
+<button class="dt" data-on="{{ d.on }}" onClick="{{ d.go }}" aria-label="{{ d.aria }}"></button>
+</sc-for>
 </div>
 </div>
-
-</div></div>
-<script>
-const T=['El punto de partida', 'Conoce a las personas', 'Define roles y expectativas claras', 'Fomenta la comunicación abierta', 'Reconoce y celebra logros diarios', 'Construye un ambiente de confianza y aprendizaje'];
-const P=[
-      'Un equipo fuerte se construye con confianza, comunicación y objetivos compartidos.',
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":960,"height":540}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { i: 0, play: false }; }
+  renderVals() {
+    const s = this.state;
+    const T = ['¿Cómo crear equipos de trabajo en Sweet & Coffee®?', 'Conoce a las personas', 'Define roles y expectativas claras', 'Fomenta la comunicación abierta', 'Reconoce y celebra logros diarios', 'Construye un ambiente de confianza y aprendizaje'];
+    const P = [
+      '',
       'No lideras cargos, lideras personas.',
       'Cuando todos entienden su rol, existe más organización, confianza y trabajo en equipo.',
       'Los equipos fuertes no solo ejecutan; también participan y proponen.',
       'Un agradecimiento o una felicitación a tiempo puede generar grandes cambios.',
       'Los errores pueden convertirse en oportunidades de crecimiento cuando existe apoyo y confianza.'
     ];
-const BUB="<div class=\"bb\" style=\"opacity: 0; transform: translateY(10px)\">\n<div class=\"gi\" style=\"position:absolute; left:0; top:0; right:0; bottom:0; padding:0 36px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:4px\"><div style=\"font-weight:800; font-size:23px; line-height:1.15; color:#FFE08A\" class=\"bk\"></div><div style=\"font-family:Montserrat,sans-serif; font-weight:500; font-size:15px; line-height:1.25; text-wrap:balance; color:#fff\" class=\"bp\"></div></div>\n</div>";
-const r=document.getElementById('r');
-const bubs=document.getElementById('bubs');
-bubs.style.display='contents';
-const bbEls=T.map((t,k)=>{const d=document.createElement('div');d.innerHTML=BUB;const e=d.firstElementChild;e.querySelector('.bk').textContent=t;e.querySelector('.bp').textContent=P[k];bubs.appendChild(e);return e});
-const dotsw=document.getElementById('dotsw');
-let i=0;
-const dotEls=[0,1,2,3,4,5,6].map(k=>{const b=document.createElement('button');b.className='dt';b.setAttribute('aria-label',k===0?'Ir al inicio':k===6?'Ir a la conclusión':'Ir al paso '+k);b.onclick=()=>go(k);dotsw.appendChild(b);return b});
-const l0=document.getElementById('l0'),l1=document.getElementById('l1'),l2=document.getElementById('l2');
-const fin=document.getElementById('fin'),finc=document.getElementById('finc');
-const bp=document.getElementById('bp'),bn=document.getElementById('bn');
-function render(){
-  const j=Math.min(i,5);
-  r.dataset.i=i;
-  l0.style.transform='translateX('+(-j*56+(i>=5?34:0))+'px)';
-  l1.style.transform='translateX('+(-j*560)+'px)';
-  l2.style.transform='translateX('+(-j*728)+'px)';
-  bbEls.forEach((e,k)=>{e.style.opacity=k===i?1:0;e.style.transform='translateY('+(k===i?0:10)+'px)'});
-  dotEls.forEach((d,k)=>d.dataset.on=k===i?'yes':'no');
-  fin.style.opacity=i===6?1:0;finc.style.transform='translateY('+(i===6?0:14)+'px)';
-  bp.dataset.off=i===0?'yes':'no';bn.dataset.off=i===6?'yes':'no';bn.dataset.pulse=i===0?'yes':'no';
+    const SAY = [
+      'Crear un equipo va más allá de reunir personas para cumplir tareas. Un equipo fuerte se construye con confianza, comunicación y objetivos compartidos. En Sweet & Coffee, el líder tiene un papel fundamental para desarrollar equipos comprometidos y generar un ambiente positivo de trabajo.',
+      'Conoce a las personas. Dedica tiempo para conversar con cada miembro del equipo. Conoce sus fortalezas, áreas de mejora y qué los motiva. Un líder que conoce a su equipo puede aprovechar mejor las habilidades de cada persona. Recuerda: No lideras cargos, lideras personas.',
+      'Define roles y expectativas claras. Cada colaborador debe conocer sus responsabilidades y lo que se espera de él. Cuando todos entienden su rol, existe más organización, confianza y trabajo en equipo.',
+      'Fomenta la comunicación abierta. Escucha al equipo, permite preguntas y crea espacios donde las personas puedan expresar ideas. Los equipos fuertes no solo ejecutan; también participan y proponen.',
+      'Reconoce y celebra logros diarios. Reconocer pequeñas acciones fortalece la motivación y el compromiso. Un agradecimiento o una felicitación a tiempo puede generar grandes cambios.',
+      'Construye un ambiente de confianza y aprendizaje. Permite que las personas aprendan, mejoren y se desarrollen. Los errores pueden convertirse en oportunidades de crecimiento cuando existe apoyo y confianza. Los mejores equipos no se forman por casualidad. Se construyen todos los días a través del liderazgo, la comunicación y el apoyo mutuo.'
+    ];
+    const go = (k) => () => { this.stopVoice(); this.setState({ i: Math.max(0, Math.min(6, k)), play: false }); };
+    return {
+      i: s.i,
+      x0: -Math.min(s.i,5) * 560 * 0.1 + (s.i >= 5 ? 34 : 0), x1: -Math.min(s.i,5) * 560, x2: -Math.min(s.i,5) * 560 * 1.3,
+      atStart: s.i === 0 ? 'yes' : 'no', atEnd: s.i === 6 ? 'yes' : 'no',
+      pulse: s.i === 0 ? 'yes' : 'no',
+      fin: s.i === 6 ? 1 : 0, finY: s.i === 6 ? 0 : 14,
+      play: s.play ? 'yes' : 'no',
+      prev: go(s.i - 1), next: go(s.i + 1),
+      bubs: T.map((t, k) => ({ kicker: t, phrase: P[k], ks: k === 0 ? 28 : 23, pd: k === 0 ? 'none' : 'block', op: k === s.i ? 1 : 0, ty: k === s.i ? 0 : 10 })),
+      dots: [0,1,2,3,4,5,6].map((t, k) => ({ on: k === s.i ? 'yes' : 'no', aria: k === 0 ? 'Ir al inicio' : k === 6 ? 'Ir a la conclusión' : 'Ir al paso ' + k, go: go(k) })),
+      say: () => {
+        const next = !s.play;
+        this.setState({ play: next });
+        try {
+          const ss = window.speechSynthesis;
+          if (!ss) return;
+          ss.cancel();
+          if (next) {
+            const u = new SpeechSynthesisUtterance(SAY[s.i]);
+            u.lang = 'es-ES';
+            u.onend = () => this.setState({ play: false });
+            ss.speak(u);
+          }
+        } catch (e) { /* sin audio */ }
+      }
+    };
+  }
+  stopVoice() {
+    try { if (window.speechSynthesis) window.speechSynthesis.cancel(); } catch (e) { /* sin audio */ }
+  }
 }
-function go(k){i=Math.max(0,Math.min(6,k));render()}
-bp.onclick=()=>go(i-1);bn.onclick=()=>go(i+1);
-document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')go(i+1);if(e.key==='ArrowLeft')go(i-1)});
-const stage=document.getElementById('stage');
-function fit(){const k=Math.min(innerWidth/960,innerHeight/540);stage.style.transform='scale('+k+')'}
-addEventListener('resize',fit);fit();render();
-</script></body></html>
+</script>
+</body>
+</html>
